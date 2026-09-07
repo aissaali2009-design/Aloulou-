@@ -21,11 +21,11 @@ export const botConfig = {
     // 3 = Watching
     // 4 = Custom
     // 5 = Competing
- activities: [
+activities: [
       {
-        name: cfg.settings.streaming.name, // required by Discord API, not shown in the client
-        url: cfg.settings.streaming.url,     // this is what people actually see
-        type:1,               // Custom
+        name: "Just Work", // required by Discord API, not shown in the client
+        state: "Work & Progress",     // this is what people actually see
+        type:4,               // Custom
       },
     ],
   },
