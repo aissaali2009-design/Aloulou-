@@ -24,8 +24,8 @@ export const botConfig = {
  activities: [
       {
         name: "Just Work", // required by Discord API, not shown in the client
-        state: "https://twitch.tv/clix",     // this is what people actually see
-        type:1,               // Custom
+        state: "Work & Progress,     // this is what people actually see
+        type:4,               // Custom
       },
     ],
   },
