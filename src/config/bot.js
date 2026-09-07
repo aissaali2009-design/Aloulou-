@@ -21,12 +21,14 @@ export const botConfig = {
     // 3 = Watching
     // 4 = Custom
     // 5 = Competing
- activities: [{
-      name: cfg.settings.streaming.name || "Gaming Server",
-      type: 1,
-      url: cfg.settings.streaming.url
-    }]
-  });
+ activities: [
+      {
+        name: "Just Work", // required by Discord API, not shown in the client
+        state: "https://twitch.tv/clix",     // this is what people actually see
+        type:1,               // Custom
+      },
+    ],
+  },
 
   // =========================
   // COMMAND BEHAVIOR
